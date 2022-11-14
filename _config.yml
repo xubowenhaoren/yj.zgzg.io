@@ -32,6 +32,7 @@ sass:
 
 plugins:
   - jekyll-environment-variables
+  - jekyll-tabs
 
 exclude:
   - Gemfile

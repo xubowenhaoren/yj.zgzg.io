@@ -29,6 +29,13 @@ layout: default
     </div>
 </div>
 
+{% tabs log %}
+
+{% tab log 节目表 %}
 {% include galalist.html %}
+
+{% endtab %}
+{% endtabs %}
+
 {% assign sponsor_type = site.data.data-sponsor.sponsors %}
 {% include sponsor-template.html %}
